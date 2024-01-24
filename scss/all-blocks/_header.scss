@@ -1,0 +1,39 @@
+.header {
+  margin-top: 20px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  gap: 33px;
+}
+
+.nav__item {
+  list-style-type: none;
+}
+
+.nav__link {
+  color: #83888F;
+  font-family: 'Barlow';
+  text-decoration: none;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+  transition: all 0.7s ease-in-out;
+
+  &:hover {
+    color: red;
+  }
+
+  &:active {
+    color: black;
+  }
+}
