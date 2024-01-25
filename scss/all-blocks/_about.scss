@@ -1,0 +1,39 @@
+.about {
+  margin-top: 168px;
+
+  &__img {
+    margin-left: 85px;
+  }
+
+  &__box {
+    width: 540px;
+    margin-left: 125px;
+    margin-top: 90px;
+  }
+
+  &__heading {
+    color: #333D4B;
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 32px;
+  }
+
+  &__text {
+    color: #333D4B;
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+  }
+}
+
+.about .container {
+  display: flex;
+}
