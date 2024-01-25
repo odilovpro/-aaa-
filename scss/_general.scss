@@ -38,3 +38,9 @@ img {
   vertical-align: middle;
   object-fit: cover;
 }
+
+
+::selection {
+  background-color: darkcyan;
+  color: rebeccapurple;
+}
