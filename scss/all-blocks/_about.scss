@@ -12,7 +12,7 @@
   }
 
   &__heading {
-    color: #333D4B;
+    color: var(--colorBrend);
     font-family: "Fraunces";
     font-size: 40px;
     font-style: normal;
@@ -24,7 +24,7 @@
   }
 
   &__text {
-    color: #333D4B;
+    color: var(--colorBrend);
     font-family: 'Barlow';
     font-size: 16px;
     font-style: normal;

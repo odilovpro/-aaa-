@@ -1,0 +1,31 @@
+.cofe {
+  @include MarginTop;
+}
+
+.cofe__info {
+  background-color: var(--BgcoCorBrend);
+  border-radius: 10px;
+}
+
+.cofe__heading {
+  @include Heading;
+}
+
+.cofe__about {
+  @include info;
+}
+
+.cofe__text {
+  @include Text;
+}
+
+.cofe__imges {
+  position: absolute;
+  margin-top: -600px;
+  right: 0px;
+  margin-right: 350px;
+}
+
+.cofe__btn {
+ @include Button;
+}
