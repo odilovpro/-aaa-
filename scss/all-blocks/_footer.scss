@@ -1,0 +1,37 @@
+.footer {
+  background-color: #2C343E;
+  margin-top: 168px;
+}
+
+.footer__logo {
+  padding: 47px 0px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav {
+  margin-left: 69px;
+}
+
+
+.footer__nav--link {
+  text-decoration: none;
+  padding-left: 33px;
+  @include FooterLink;
+}
+
+.footer__icon {
+  margin-left: 345px;
+}
+
+.footer__icon--link {
+  margin-left: 24px;
+  text-decoration: none;
+}
+
+path:hover {
+  fill: red;
+}
